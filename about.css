@@ -1,8 +1,19 @@
 body, html {
     height: 100%;
 }
-.parallax{
-  background-image: url('img/manWallet.jpg');
+
+.media_parallax{
+  background-image: url('images/manWallet2.jpg');
+  opacity: 0.75;
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_parallax{
+  background-image: url('images/manWallet.jpg');
   opacity: 0.75;
   min-height: 100%;
   background-attachment: fixed;
