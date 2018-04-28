@@ -1,3 +1,36 @@
-<html>
-	<h1>Title</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" media="all" type="text/css" href="index.css"/>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script>
+$(document).ready(function(){
+	$('.cover').hover(function() {
+		 $('.active').removeClass('active');
+		 $(this).addClass("active");
+	});
+});
+</script>
+</head>
+<body>
+	<div class="wrapper">
+	<div class='coverflow'>
+  <div class='cover'><img src="img/cover1.jpg"/></div>
+  <div class='cover'><img src="img/cover2.jpg" /></div>
+  <div class='cover active'><img src="img/cover3.jpg"/></div>
+  <div class='cover'><img src="img/cover5.jpg" /></div>
+  <div class='cover'><img src="img/cover6.jpg" /></div>
+	</div>
+</div>
+	<div class="coverflow_text">
+		<p>askhflwakhvlkajlwdhnvlkajwhvljkahsdflkjh</p>
+	</div>
+	<div class="video">
+	<iframe width="1349" height="480"
+	src="https://www.youtube.com/embed/BIQXQxywtds" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+</body>
 </html>
