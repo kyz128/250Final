@@ -3,7 +3,7 @@ body, html {
 }
 
 .media_parallax{
-  background-image: url('images/manWallet2.jpg');
+  background-image: url('../images/manWallet2.jpg');
   opacity: 0.75;
   min-height: 100%;
   background-attachment: fixed;
@@ -13,7 +13,7 @@ body, html {
 }
 
 .about_parallax{
-  background-image: url('images/manWallet.jpg');
+  background-image: url('../images/manWallet.jpg');
   opacity: 0.75;
   min-height: 100%;
   background-attachment: fixed;
