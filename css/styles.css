@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    font-family: 'Oswald', sans-serif;
 }
 
 .media_parallax{
@@ -10,6 +11,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .about_parallax{
@@ -23,19 +25,23 @@ body, html {
 }
 
 .heading{
-  text-align: center;
-  left:33%;
+  margin: auto;
+  left:50%;
   top: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
+
 }
+
 .heading span.text {
   background-color: black;
   color: white;
   font-size: 48px;
   width: 50%;
   padding: 50px;
-
+  opacity: 1;
 }
+
 .blank{
   height: 10%;
   background-color: white;
@@ -49,7 +55,7 @@ body, html {
 .about_description p{
   margin-left: 100px;
   margin-right: 100px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .media_description {
