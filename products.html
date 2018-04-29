@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css"/>
+</head>
+
+<body id="smedia">
+
+  <div id="navbar">
+    <a href="index.html"> Home </a>
+    <a href="about.html"> About </a>
+    <a href="products.html"> Products </a>
+    <a href="media.html"> Social Media </a>
+  </div>
+
+  <div class="products_parallax">
+
+    <div class="heading">
+      <span class="text">Products</span>
+    </div>
+
+  </div>
+
+
+
+
+  <div class ="blank"></div>
+  <div class="overlay">
+    <div class="overlay1">
+      <span class="overlay_text">Leather Hybrid L Shaped Wallet</span>
+      <img src="images/lShapeWallet.jpg" alt= "nylon" border= "5">
+      <div class= "more_info">
+        The Leather Hybrid L-Shaped Wallet is what happens when you cross a tri-fold and a bi-fold wallet. It flips open and up to provide additional storage space and options.
+      </div>
+    </div>
+
+    <div class="overlay2">
+      <span class="overlay_text">Hipster Bifold</span>
+      <img src="images/hipsterBifold.jpg" alt= "stiching" border= "5">
+      <div class= "more_info">
+        Our handsome Hipster bi-fold wallet from Big Skinny has enough pockets to secure a load of plastic cards, receipts, cash and those old baseball cards with frayed edges. Yet, this wallet is five times lighter than a traditional wallet.
+      </div>
+    </div>
+
+    <div class="overlay3">
+      <span class="overlay_text">Leather Slimvelope Wallet</span>
+      <img src="images/leatherWomensWallet.jpg" alt= "snaps" border= "5">
+      <div class= "more_info">
+        This Slimvelope is only .5 inch thick. Inside our tri-fold Slimvelope are two checkbook-sized billfolds, two clear plastic ID card pockets, and eight extra wide card pockets. Each holds three to five credit cards.
+      </div>
+    </div>
+
+    <div class="overlay4">
+      <span class="overlay_text">Mounte Cougar Tri-fold Checkbook Wallet</span>
+      <img src="images/checkbookWallet.jpg" alt= "checkbookWallet" border= "5">
+      <div class= "more_info">
+        You will have easy access to all of it without the fear of anything slipping out - not with our exclusive no-slip grip pocket liners. Our wallet is only 7mm thin (or 3/8) inch) when closed. This gorgeous tri-fold in electric purple measures 7 1/2 inches by 4 3/16 inches.
+      </div>
+    </div>
+    <div class="overlay5">
+      <span class="overlay_text">World Bifold Wallet with Zippered Pocket</span>
+      <img src="images/zipperedPocket.jpg" alt= "checkbookWallet" border= "5">
+      <div class= "more_info">
+        You will have easy access to all of it without the fear of anything slipping out - not with our exclusive no-slip grip pocket liners. Our wallet is only 7mm thin (or 3/8) inch) when closed. This gorgeous tri-fold in electric purple measures 7 1/2 inches by 4 3/16 inches.
+      </div>
+    </div>
+    <div class="overlay6">
+      <span class="overlay_text">Traveler Wallet</span>
+      <img src="images/travelWallet.jpg" alt= "checkbookWallet" border= "5">
+      <div class= "more_info">
+        Our newest world's skinniest travel passport case and wallet in one from Big Skinny is the smart way to explore the planet. It's super thin and extra roomy to hold all your travel documents, cash and plastic cards.
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="products_parallax"></div>
+
+
+  <!--Adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky-->
+  <script>
+      // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+    }
+  </script>
+
+  </body>
+</html>

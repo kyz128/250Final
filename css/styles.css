@@ -11,7 +11,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+
 }
 
 .about_parallax{
@@ -22,6 +22,17 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.products_parallax{
+  background-image: url('../images/manWallet3.jpg');
+  opacity: 0.75;
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear:both;
 }
 
 .heading{
@@ -59,6 +70,12 @@ body, html {
 }
 
 .media_description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
   height:auto;
   background-color:black;
   color: white;
@@ -66,21 +83,24 @@ body, html {
 }
 
 .media_text {
+  display: inline-block;
   height: auto;
   width: 60%;
-  float: left;
   vertical-align: middle;
+  float: left;
 
-  /*Maybe try to fix? */
-  /*border-color: white;
-  border-right-style: solid;*/
+
+  border-color: white;
+  border-right-style: solid;
 }
 
 .media_links {
+  display: inline-block;
   width: auto;
   height: auto;
   overflow:hidden;
   padding: 10px;
+  text-align: center;
 }
 
 .media_text p{
@@ -113,7 +133,7 @@ body, html {
   text-align: center;
 }
 
-.overlay1, .overlay2,.overlay3,.overlay4 {
+.overlay1, .overlay2,.overlay3,.overlay4,.overlay5,.overlay6 {
   height: 50%;
   width:50%;
   position: relative;
@@ -157,7 +177,7 @@ body, html {
   text-align: center;
 }
 
-.overlay1:hover .more_info, .overlay2:hover .more_info, .overlay3:hover .more_info, .overlay4:hover .more_info  {
+.overlay1:hover .more_info, .overlay2:hover .more_info, .overlay3:hover .more_info, .overlay4:hover .more_info, .overlay5:hover .more_info, .overlay6:hover .more_info  {
   opacity: 1;
 }
 
@@ -210,10 +230,13 @@ body, html {
   text-decoration: none;
   transition: background-color 0.5s ease;
   transition: color 0.5 ease;
+  background-color: black;
+  position: relative;
+  z-index: 1000;
 }
 
 #navbar a:hover {
-  color: #333;
+  color: black;
   background-color: #f2f2f2;
 
 }
