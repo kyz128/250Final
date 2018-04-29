@@ -1,5 +1,6 @@
  html, body {
   height: 100%;
+  font-family: 'Oswald', sans-serif;
   }
 
 
@@ -26,7 +27,7 @@
 }
 
 .parallax-1{
-  background-image: url("../images/skyline.jpg");
+  background-image: url("../images/indexWallet.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,9 +56,23 @@
   position: relative;
 }
 
-.coverflow_text{
-  background-color: black
-  color:white;
+.coverflow_text, .video{
+  color:black;
   margin-left: 100px;
   margin-right: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.location{
+  background-color: black;
+}
+
+.location img{
+  display: block;
+  margin: auto;
+}
+
+h2{
+  font-size: 36px;
 }
