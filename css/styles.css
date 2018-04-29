@@ -35,6 +35,37 @@ body, html {
   clear:both;
 }
 
+.index-parallax-1{
+  background-image: url("../images/indexWallet.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+  clear:both;
+}
+
+.index-parallax-2{
+  background-image: url("../images/skyline.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
+.index-parallax-3{
+  background-image: url("../images/fair copy.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
 .heading{
   margin: auto;
   left:50%;
@@ -256,4 +287,52 @@ body, html {
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+/* Coverflow Content */
+.ui-coverflow-wrapper{
+    height:400px;
+    margin-top: 100px;
+    width:100%;
+}
+.ui-state-active{
+    border:0px;
+}
+
+.ui-coverflow {
+  left:0;
+  perspective-origin: 660px 45%;
+  transition-property: left;
+  transition-duration: 400ms;
+}
+
+.ui-coverflow-item{
+  transform: matrix3d(0.494981, 0, -0.707097, 0, 0, 0.7, 0, 0, 0.707097, 0, 0.494981, 0, 0, 0, 0, 1);
+  transform-origin: left;
+  center: 0px;
+}
+
+.coverflow_text, .video{
+  color:black;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.location{
+  background-color: black;
+}
+
+.location img{
+  display: block;
+  margin: auto;
+}
+
+video h2{
+  font-size: 36px;
+}
+
+#navbar img {
+  float: right;
 }
