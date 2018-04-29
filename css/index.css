@@ -6,18 +6,17 @@
 .ui-coverflow-wrapper{
     height:400px;
     margin-top: 100px;
+    width:100%;
 }
 .ui-state-active{
     border:0px;
 }
 
 .ui-coverflow {
-  width: 50%;
   left:0;
   perspective-origin: 660px 45%;
   transition-property: left;
   transition-duration: 400ms;
-  float:left;
 }
 
 .ui-coverflow-item{
@@ -26,34 +25,39 @@
   center: 0px;
 }
 
+.parallax-1{
+  background-image: url("../images/skyline.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
+.parallax-2{
+  background-image: url("../images/skyline.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
+.parallax-3{
+  background-image: url("../images/fair copy.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
 .coverflow_text{
-  float:right;
+  background-color: black
+  color:white;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-
-.coverflow_text p{
-  vertical-align: super;
-}
-/* #item1{
-  z-index: 11;
-  left: 0px;
-}
-
-#item2{
-  z-index: 12;
-  left: -229px;
-}
-
-#item3{
-  z-index: 13;
-  left: -457px;
-}
-
-#item4{
-  z-index: 14;
-  left: -686px;
-}
-
-#item5{
-  z-index: 15;
-  left: -915px;
-} */
