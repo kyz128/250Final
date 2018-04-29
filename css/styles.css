@@ -74,6 +74,7 @@ body, html {
   min-height: 100%;
   position: relative;
   clear:both;
+  opacity: 0.85;
 }
 
 .index-parallax-1-2{
@@ -85,6 +86,7 @@ body, html {
   min-height: 33%;
   position: relative;
   clear:both;
+  opacity: 0.85;
 }
 
 .index-parallax-2{
@@ -95,6 +97,7 @@ body, html {
   background-size: cover;
   min-height: 100%;
   position: relative;
+  opacity: 0.85;
 }
 
 .index-parallax-3{
@@ -105,6 +108,7 @@ body, html {
   background-size: cover;
   min-height: 100%;
   position: relative;
+  opacity: 0.85;
 }
 
 .heading{
@@ -224,6 +228,7 @@ body, html {
   width: 50%;
   opacity: 1;
   z-index: 1;
+  transition: .5s ease;
 
 }
 
@@ -231,6 +236,7 @@ body, html {
   display: block;
   width: 100%;
   height:100%;
+  object-fit: contain;
   opacity: .75;
 }
 
@@ -247,6 +253,11 @@ body, html {
   font-size: 15px;
   padding: 10px;
   text-align: center;
+}
+
+
+.overlay1:hover span.overlay_text, .overlay2:hover span.overlay_text, .overlay3:hover span.overlay_text, .overlay4:hover span.overlay_text, .overlay5:hover span.overlay_text, .overlay6:hover span.overlay_text  {
+  opacity: 0;
 }
 
 .overlay1:hover .more_info, .overlay2:hover .more_info, .overlay3:hover .more_info, .overlay4:hover .more_info, .overlay5:hover .more_info, .overlay6:hover .more_info  {
@@ -304,7 +315,7 @@ body, html {
   transition: color 0.5 ease;
   background-color: black;
   position: relative;
-  z-index: 1000;
+  z-index: 30;
 }
 
 #navbar a:hover {
